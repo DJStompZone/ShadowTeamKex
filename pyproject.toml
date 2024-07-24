@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "shadowteamkex"
+version = "0.1.12"
+description = "ShadowTEAM DH Key Exchange (InDev)"
+authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<4.0,>=3.9"
+pycryptodome = "^3.20.0"
+cryptography = "^43.0.0"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.8.3"
+twine = "^5.1.1"
+pytest = "^8.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
