@@ -2,6 +2,10 @@
 
 ShadowTEAM Kex is a key exchange library that provides secure communication between peers using the Diffie-Hellman key exchange protocol. It allows peers to establish a shared secret key over an insecure network, which can then be used for secure communication.
 
+<img src="https://github.com/user-attachments/assets/1940cfae-64de-4ec3-9599-a469e62c02e2" width="170">
+
+<a href="https://github.com/DJStompZone/ShadowTeamKex/actions/workflows/github-code-scanning/codeql"><img src="https://github.com/DJStompZone/ShadowTeamKex/actions/workflows/github-code-scanning/codeql/badge.svg" width="120"></a> 
+
 ## Features
 
 - Role negotiation: The library supports both initiator and listener roles, allowing peers to determine their roles dynamically based on a negotiation process.
